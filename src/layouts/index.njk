@@ -1,0 +1,21 @@
+{% extends "base.njk" %}
+{% block main %}
+
+<div id="logo">
+    <img src="/clmn.png">
+    <div>
+    <h1>Clmn</h1>
+    <h2>Just Columns & Tasks</h2>
+    </div>
+</div>
+
+<div id="content">
+    {{ content | safe }}
+</div>
+
+
+{% endblock %}
+{% block script %}
+<script>
+</script>
+{% endblock %}

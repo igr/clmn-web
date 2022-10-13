@@ -1,0 +1,21 @@
+{
+  "name": "clmn",
+  "version": "3.0.0.",
+  "description": "Clmn",
+  "type": "commonjs",
+  "scripts": {
+    "clean": "rm -rf out",
+    "dev": "node spig.mjs dev",
+    "build": "node spig.mjs"
+  },
+  "author": {
+    "name": "Igor Spasić",
+    "email": "igor.spasic@gmail.com",
+    "url": "https://igo.rs/"
+  },
+  "license": "BSD-2",
+  "homepage": "https://clmnapp.com",
+  "dependencies": {
+    "spignite": "^3.0.0"
+  }
+}

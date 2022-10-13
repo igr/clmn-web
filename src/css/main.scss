@@ -1,0 +1,82 @@
+@import "mixins";
+@import "normalize";
+@import "vars";
+
+font-face {
+  font-family: 'PeriodicoBk', serif;
+  src: url(/fonts/PeriodicoDisplay-Bk.woff2) format('woff2'),
+       url(/fonts/PeriodicoDisplay-Bk.woff) format('woff'),
+       url(/fonts/PeriodicoDisplay-Bk.ttf) format('truetype');
+}
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+$font-title: "PeriodicoBk";
+$font: "Fira Code";
+
+html, body {
+  background-color: var(--white);
+  font-family: $font, monospace;
+  font-size: var(--font-lg);
+  line-height: var(--line-height-md);
+  height: 100%;
+  width: 100%;
+}
+main {
+  margin: 0 auto;
+  padding: 2em 10vw;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 16vw;
+  line-height: 10vw;
+  font-family: $font-title;
+  color: var(--black);
+  letter-spacing: -6px;
+}
+h2 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: $font-title;
+  font-size: var(--font-4xl);
+  line-height: var(--font-3xl);
+  color: var(--black);
+  letter-spacing: -2px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.nonselect {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+*:focus {
+  outline: none;
+}
+
+#logo {
+  display: var(--display-flex);
+  align-items: center;
+  h2 {
+    font-size: var(--font-5xl);
+    line-height: var(--font-4xl);
+    letter-spacing: -4px;
+  }
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+#content {
+  margin: 0 3vw;
+}
