@@ -27,11 +27,14 @@ main {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+.center {
+  text-align: center;
+}
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 16vw;
-  line-height: 10vw;
+  font-size: 10rem;
+  line-height: 0.8;
   font-family: $font-title;
   color: var(--black);
   letter-spacing: -6px;
@@ -41,7 +44,7 @@ h2 {
   padding: 10px 0;
   font-family: $font-title;
   font-size: var(--font-4xl);
-  line-height: var(--font-3xl);
+  line-height: 0.8;
   color: var(--black);
   letter-spacing: -2px;
 }
@@ -69,7 +72,7 @@ p {
   align-items: center;
   h2 {
     font-size: var(--font-5xl);
-    line-height: var(--font-4xl);
+    line-height: 0.8;
     letter-spacing: -4px;
   }
 }
@@ -79,4 +82,9 @@ img {
 }
 #content {
   margin: 0 3vw;
+}
+code {
+  font-weight: bold;
+  background-color: var(--yellow-300);
+  padding: 0 10px;
 }
