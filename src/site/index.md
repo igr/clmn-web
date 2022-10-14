@@ -5,7 +5,15 @@
 
 ## Multiple columns at once
 
-Visibility is the key.
+Visibility is crutial. `Clmn` shows multiple tasks columns at once. That gives an overrive of all tasks that bellong to the same domain.
+
+## Nothing fancy, just enough
+
+There is nothing fancy in `Clmn`. No stars, important tasks, priorities, sublists... All that takes our focus away. Task is a task, and that is all.
+
+`Clmn` offers just enough functionalities:
+
+- Task _notes_ for 
 
 ## Why?
 

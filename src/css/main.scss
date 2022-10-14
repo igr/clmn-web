@@ -21,8 +21,19 @@ html, body {
   height: 100%;
   width: 100%;
 }
+body {
+  display:flex;
+}
+.left, .right {
+  height: 100%;
+  flex:1;
+}
 main {
-  margin: 0 auto;
+  min-width: 200px;
+  max-width: 900px;
+  flex-basis: auto;
+  flex-grow: 1;
+  height: 100%;
   padding: 2em 10vw;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,8 +53,8 @@ h1 {
 h2 {
   margin: 0;
   padding: 10px 0;
-  font-family: $font-title;
-  font-size: var(--font-4xl);
+  font-family: $font;
+  font-size: var(--font-2xl);
   line-height: 0.8;
   color: var(--black);
   letter-spacing: -2px;
@@ -71,6 +82,7 @@ p {
   display: var(--display-flex);
   align-items: center;
   h2 {
+    font-family: $font-title;
     font-size: var(--font-5xl);
     line-height: 0.8;
     letter-spacing: -4px;
@@ -87,4 +99,49 @@ code {
   font-weight: bold;
   background-color: var(--yellow-300);
   padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: "—";
+  padding-right: 10px;
+}
+em {
+  font-style: normal;
+  background-color: var(--pink-200);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+  #logo {
+    align-items: unset;
+    h2 {
+      font-size: 3rem;
+    }
+    img {
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0;
+  }
+  #logo {
+    align-items: unset;
+    h2 {
+      letter-spacing: 0;
+      font-size: 1.2rem;
+    }
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
 }
