@@ -21,7 +21,7 @@ html, body {
   height: 100%;
   width: 100%;
 }
-body {
+#page {
   display:flex;
 }
 .left, .right {
@@ -34,7 +34,6 @@ main {
   flex-basis: auto;
   flex-grow: 1;
   height: 100%;
-  padding: 2em 10vw;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -52,12 +51,11 @@ h1 {
 }
 h2 {
   margin: 0;
-  padding: 10px 0;
+  padding: 30px 0 10px 0;
   font-family: $font;
   font-size: var(--font-2xl);
   line-height: 0.8;
   color: var(--black);
-  letter-spacing: -2px;
 }
 p {
   display: block;
@@ -78,10 +76,28 @@ p {
   outline: none;
 }
 
+footer {
+  a {
+    color: var(--green)
+  }
+  margin-top: 6em;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 6em 0 4em 0;
+  text-align: center;
+  #love {
+    a {
+      font-size: var(--font-xs);
+      color: var(--purple)
+    }
+  }
+}
+
 #logo {
   display: var(--display-flex);
   align-items: center;
   h2 {
+    padding: 10px 0;
     font-family: $font-title;
     font-size: var(--font-5xl);
     line-height: 0.8;
@@ -103,6 +119,9 @@ code {
 
 ul {
   list-style: none;
+  li {
+    padding-bottom: 0.5em;
+  }
 }
 ul li:before {
   content: "—";
@@ -111,6 +130,15 @@ ul li:before {
 em {
   font-style: normal;
   background-color: var(--pink-200);
+}
+kbd {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.1em 0.5em;
+  margin: 0 0.2em;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+  background-color: #f7f7f7;
 }
 
 @media (max-width: 768px) {

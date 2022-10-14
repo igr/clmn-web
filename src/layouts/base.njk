@@ -36,11 +36,19 @@
     <link rel='stylesheet' href='/css/main.css' type='text/css' media='all' />    
 </head>
 <body>
+    <div id="page">
 	<div class="left"></div>
 	<main>
     {% block main %}{% endblock %}
 	</main>
 	<div class="right"></div>
-{% block script %}{% endblock %}
+    </div>
+
+    <footer>
+        <div><a href="mailto:clmn@igo.rs">Contact</a></div>
+        <br>
+        <div id="love">made with ❤️ by <a href="https://igo.rs" target="_blank">igr</a> and vexy</div>
+    </footer>
+    {% block script %}{% endblock %}
 </body>
 </html>
