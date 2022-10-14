@@ -1,4 +1,4 @@
-`Clmn` is a beautiful task board app for macOS. It is thoughtfully simple and unbearably efficient. Tasks require dedication: that's the only way of getting things done.
+`Clmn` is a beautiful task board native app for macOS. It is thoughtfully simple and unbearably efficient. Tasks require dedication: that's the only way of getting things done.
 
 ![](clmn1.png)
 {.center}
