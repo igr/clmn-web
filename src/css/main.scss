@@ -86,8 +86,8 @@ footer {
   padding: 6em 0 4em 0;
   text-align: center;
   #love {
+    font-size: var(--font-xs);
     a {
-      font-size: var(--font-xs);
       color: var(--purple)
     }
   }
