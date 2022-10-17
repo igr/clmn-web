@@ -23,6 +23,7 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 - Coloured backgrounds for tasks.
 - _Select_ a task and show _notes_ with more details.
 - _Link_ to tasks using `Clmn` task URL.
+- Use keyboard in popups: <kbd>⌘ + Return</kbd> to save, <kbd>Esc</kbd> to dismiss.
 
 ## How much it costs?
 
