@@ -3,7 +3,7 @@
 ![](clmn1.png)
 {.center}
 
-v1.0.0 macOS 12+ Intel, M1
+v1.0.1 macOS 12+ Intel, M1
 {.sub}
 
 ## 🚀 Multiple columns at once
@@ -35,11 +35,25 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 
 `Clmn` is _free_. It is open-source as well.
 
-We might charge for some advanced features in the future, only to cover expenses.
-
 It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider donating. That would help us a lot! Thank you very much! 🙏
 
+
+## 🔮 Future plans
+
+One word: _integrations_. The idea is to integrate **Clmn** boards with various 3rd parties: Reminders, Github project, Jira, etc. Each **Clmn** board integration would show your tasks only so that you can stay focused on your work only.
+
+We can't promise we will ever get enough resources to develop integrations, but we are allowed to dream :)
+
+
 ## 💁‍♂️ FAQ
+
+### > I hate hover buttons!
+
+No worries! Turn off this feature in the settings.
+
+### > What about my collegues?
+
+**Clmn** is local-only app, sorry. Your tasks, only.
 
 ### > No due dates or calendar or...?
 
