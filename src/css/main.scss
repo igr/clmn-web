@@ -191,3 +191,23 @@ kbd {
     }
   }
 }
+
+.dl {
+  a {
+    display: block;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+    width: 220px;
+    border-radius:10px;
+    text-decoration: none;
+    &:hover {
+      color: var(--whiteSecondary);
+      background-color: var(--blackSecondary);
+      transition: 0.1s;
+    }
+  }
+
+}

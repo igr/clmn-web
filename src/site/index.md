@@ -3,6 +3,9 @@
 ![](clmn1.png)
 {.center}
 
+[Download DMG](https://github.com/igr/Clmn/releases/download/v1.0.1/Clmn-2022-10-31.dmg)
+{.dl}
+
 v1.0.1 macOS 12+ Intel, M1
 {.sub}
 
@@ -35,12 +38,12 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 
 `Clmn` is _free_. It is open-source as well.
 
-It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider donating. That would help us a lot! Thank you very much! 🙏
+It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider [donating](https://github.com/sponsors/igr?sponsor=igr). That would help us a lot! Thank you very much! 🙏
 
 
 ## 🔮 Future plans
 
-One word: _integrations_. The idea is to integrate **Clmn** boards with various 3rd parties: Reminders, Github project, Jira, etc. Each **Clmn** board integration would show your tasks only so that you can stay focused on your work only.
+One word: _integrations_. The idea is to integrate `Clmn` boards with various 3rd parties: Reminders, Github project, Jira, etc. Each `Clmn` board integration would show your tasks only so that you can stay focused on your work.
 
 We can't promise we will ever get enough resources to develop integrations, but we are allowed to dream :)
 
@@ -51,9 +54,9 @@ We can't promise we will ever get enough resources to develop integrations, but 
 
 No worries! Turn off this feature in the settings.
 
-### > What about my collegues?
+### > What about my co-workers?
 
-**Clmn** is local-only app, sorry. Your tasks, only.
+`Clmn` is a local app, sorry. Your tasks, only.
 
 ### > No due dates or calendar or...?
 
