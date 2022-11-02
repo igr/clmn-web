@@ -3,10 +3,10 @@
 ![](clmn1.png)
 {.center}
 
-[Download DMG](https://github.com/igr/Clmn/releases/download/v1.0.1/Clmn-2022-10-31.dmg)
+[Download DMG](https://github.com/igr/Clmn/releases/download/v1.0.2/Clmn-v1.0.2.dmg)
 {.dl}
 
-v1.0.1 macOS 12+ Intel, M1
+v1.0.2 macOS 12+ Intel, M1
 {.sub}
 
 ## 🚀 Multiple columns at once
@@ -36,7 +36,7 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 
 ## 🎁 How much it costs?
 
-`Clmn` is _free_. It is open-source as well.
+`Clmn` is _free_. It is [open-source](https://github.com/igr/Clmn) as well.
 
 It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider [donating](https://github.com/sponsors/igr?sponsor=igr). That would help us a lot! Thank you very much! 🙏
 
@@ -52,7 +52,7 @@ We can't promise we will ever get enough resources to develop integrations, but 
 
 ### > I hate hover buttons!
 
-No worries! Turn off this feature in the settings.
+No worries! Turn off this feature in the settings :)
 
 ### > What about my co-workers?
 
