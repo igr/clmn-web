@@ -38,15 +38,20 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 
 `Clmn` is _free_. It is [open-source](https://github.com/igr/Clmn) as well.
 
-It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider [donating](https://github.com/sponsors/igr?sponsor=igr). That would help us a lot! Thank you very much! 🙏
+It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider [buying](https://github.com/sponsors/igr?sponsor=igr). That would help us a lot! Thank you very much! 🙏
 
 
 ## 🔮 Future plans
 
-One word: _integrations_. The idea is to integrate `Clmn` boards with various 3rd parties: Reminders, Github project, Jira, etc. Each `Clmn` board integration would show your tasks only so that you can stay focused on your work.
+`Clmn` is a young app. It is already useful, but there is a lot of room for improvement. Here are some ideas:
 
-We can't promise we will ever get enough resources to develop integrations, but we are allowed to dream :)
-
++ [ ] _Search_ for tasks.
++ [ ] _Filter_ tasks.
++ [ ] _Sort_ tasks by priority.
++ [ ] _Share_ tasks with others.
++ [ ] _Customize_ colours.
++ [ ] _Customize_ fonts.
++ [ ] Attach images to tasks.
 
 ## 💁‍♂️ FAQ
 
