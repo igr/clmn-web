@@ -1,17 +1,16 @@
-`Clmn` is a beautiful task board native app for macOS. It is thoughtfully simple and unbearably efficient; nothing fancy, just enough. `Clmn` is designed for professionals that work mostly on laptops.
+`Clmn` is a beautiful native task board app for macOS. It is thoughtfully simple and incredibly efficient; offering just the right amount of functionality without any unnecessary frills. `Clmn` is specifically designed for professionals who primarily work on laptops.
 
 ![](clmn1.png)
 {.center}
 
-[Download DMG](https://github.com/igr/Clmn/releases/download/v1.0.2/Clmn-v1.0.2.dmg)
-{.dl}
+<a href="https://apple.co/3NaYgTw" target="_blank" style="display:block; text-align:center"><img src="download.svg" class="dlimg"></a>
 
-v1.0.2 macOS 12+ Intel, M1
+Support us by purchasing the app on the App Store.<br>Download free version below.
 {.sub}
 
 ## 🚀 Multiple columns at once
 
-Visibility is essential. `Clmn` shows multiple task columns at once. That gives an overview of all tasks that belong to the same domain.
+Visibility is essential. `Clmn` displays multiple task columns simultaneously, providing an overview of all tasks within the same domain.
 
 Tasks within a list may be further organized into groups.
 
@@ -19,9 +18,9 @@ Lists + Groups + Tasks == Get Things Done.
 
 ## ⚡ Nothing fancy, just enough
 
-There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything else takes the focus away.
+There is nothing fancy about `Clmn`. A task is simply a task, and that's all. Everything else distracts from the focus.
 
-`Clmn` offers just enough functionalities:
+`Clmn` offers just enough functionality:
 
 - Order tasks in _lists_ and _groups_.
 - _Complete_ a task. <kbd>Click</kbd>
@@ -38,12 +37,19 @@ There is nothing fancy in `Clmn`. A task is a task, and that is all. Everything 
 
 `Clmn` is _free_. It is [open-source](https://github.com/igr/Clmn) as well.
 
-It takes time and effort to develop, distribute, maintain, and provide support. If you like the app, please consider [buying](https://github.com/sponsors/igr?sponsor=igr). That would help us a lot! Thank you very much! 🙏
+It takes time and effort to develop, distribute, maintain, and provide support for the app. If you enjoy using it, please consider supporting us by [purchasing it](https://apple.co/3NaYgTw). Your support would be greatly appreciated! Thank you very much! 🙏
+
+[Download DMG](https://github.com/igr/Clmn/releases/download/v1.0.4/Clmn-v1.0.4.dmg)
+{.dl}
+
+v1.0.4 macOS 12+ Intel, Apple Silicon
+{.sub}
+
 
 
 ## 🔮 Future plans
 
-`Clmn` is a young app. It is already useful, but there is a lot of room for improvement. Here are some ideas:
+`Clmn` is a young app. It is already useful, but there is plenty of room for improvement. Here are some ideas:
 
 + [ ] _Search_ for tasks.
 + [ ] _Filter_ tasks.
@@ -61,11 +67,11 @@ No worries! Turn off this feature in the settings :)
 
 ### > What about my co-workers?
 
-`Clmn` is a local app, sorry. Your tasks, only.
+`Clmn` is a local app, exclusive to your tasks only.
 
 ### > No due dates or calendar or...?
 
-No stars, important flags, priorities, sublists, even due dates, reminders, pomodoros... `Clmn` is not that kind of app. Instead, it is super simple on purpose: the less is more. You either dedicate to your tasks, or find an excuse :)
+No stars, important flags, priorities, sublists, even due dates, reminders, pomodoros... `Clmn` is not that kind of app. Instead, it intentionally keeps things super simple: less is more. You either dedicate yourself to your tasks or find an excuse :)
 
 New features will be added very thoughtfully.
 
